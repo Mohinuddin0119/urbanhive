@@ -1,5 +1,6 @@
 
 @media screen and (max-width:400px) {
+    /* nav responsive start here */
     .nav-container{
         flex-direction: column;
     }
@@ -17,10 +18,30 @@
         text-align: center;
         border-radius: 2px;
     }
+    /* nav resposive end here */
+
+    /* banner responsive start here */
+    .banner-container{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .banner-text,.banner-img{
+        width: 100%;
+    }
+    .icons-container{
+        margin: 10px;
+        gap:10px;
+    }
+    .banner-btn{
+        margin-bottom: 10px;
+    }
+
+    /* banner responsive end here */
 }
 /* --medium device */
 
 @media screen and (min-width:400px) and (max-width:800px) {
+    /* nav responsive start here */
     nav{
         background-color: rgb(82, 156, 131);
     }
@@ -41,4 +62,19 @@
         text-align: center;
         border-radius: 2px;
     }
+    /* nav resposive end here */
+
+    /* banner responsive start here */
+    .banner-container{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .banner-text,.banner-img{
+        width: 100%;
+    }
+    .banner-text{
+        padding: 10px;
+    }
+
+    /* banner responsive end here */
 }
