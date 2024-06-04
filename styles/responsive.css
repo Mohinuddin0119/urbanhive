@@ -37,6 +37,16 @@
     }
 
     /* banner responsive end here */
+
+    /* products responsive start here */
+    .card-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .single-products{
+        width: 90%;
+    }
+
+    /* products resposive end here */
 }
 /* --medium device */
 
@@ -77,4 +87,19 @@
     }
 
     /* banner responsive end here */
+
+    
+    /* products responsive start here */
+    .card-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .single-products{
+        width: 90%;
+        margin: 0 auto 0;
+    }
+    .icons-container-name{
+        flex-direction: column;
+    }
+
+    /* products resposive end here */
 }
