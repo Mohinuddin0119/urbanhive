@@ -77,7 +77,6 @@ body{
 .banner-text{
     width: 50%;
     text-align: center;
-    border: 1px solid rebeccapurple;
 }
 .banner-text h1{
     background-image: linear-gradient(to bottom, #3c247e, #e893cf);
