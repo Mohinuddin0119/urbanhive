@@ -159,3 +159,52 @@ body{
     margin-left: 5px;
     color: white;
 }
+
+/* --discount design start here-- */
+
+.discount-section{
+    margin-top: 30px;
+    background-color: #9376e0;
+    padding: 20px 0;
+}
+.discount-container{
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.discount-img{
+    width: 50%;
+
+}
+.discount-img img{
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+.discount-number{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(143, 143, 35);
+    font-size: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: 197%;
+    left: 38%;
+}
+.discount-text{
+    width: 50%;
+}
+.discount-btn{
+    border:2px solid black;
+    color:black;
+    font-size: 20px;
+}
+
+/* --discount design end here-- */

@@ -47,6 +47,17 @@
     }
 
     /* products resposive end here */
+
+    /* discount responsive start here */
+    .discount-container{
+        flex-direction: column;
+    }
+    .discount-img, .discount-text{
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* discount responsive end here */
 }
 /* --medium device */
 
@@ -102,4 +113,15 @@
     }
 
     /* products resposive end here */
+
+        /* discount responsive start here */
+        .discount-container{
+            flex-direction: column;
+        }
+        .discount-img, .discount-text{
+            width: 100%;
+            padding: 10px;
+        }
+    
+        /* discount responsive end here */
 }
