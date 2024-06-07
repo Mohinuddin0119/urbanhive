@@ -23,13 +23,11 @@ body{
 
 }
 .nav-logo-container{
-    /* border: 1px solid blueviolet; */
     display: flex;
     align-items: center;
     width: 50%;
 }
 .nav-logo-container img{
-    /* border: 1px solid salmon; */
     width: 70px;
     margin-right: 20px;
 }
@@ -208,3 +206,53 @@ body{
 }
 
 /* --discount design end here-- */
+
+/* -- user review section start here--  */
+.review-container{
+    gap: 10px;
+    min-height: 200px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.single-review{
+    flex-basis: 300px;
+    background-color: #e893cf;
+    padding: 10px;
+    border-radius: 10px;
+}
+.review-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.single-review img{
+    width: 60px;
+    height: 60px;
+}
+
+/* -- user review section end here--  */
+
+/* footer section design. */
+.footer-section{
+    min-height: 200px;
+    background-color: #3c247e;
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px;
+}
+.footer-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e6e9eb;
+}
+.footer-section img{
+    width: 50px;
+}
+.footer-section p{
+    color: aliceblue;
+    font-size: 20px;
+}
